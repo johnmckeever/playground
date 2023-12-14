@@ -1,9 +1,9 @@
 # MettleCI Cloud Pak Compliance Rule Reference
-This page lists the example Compliance Rules supplied with MettleCI for IBM Cloud Pak for Data.
-Each Compliance Rule is supplied as a `.groovy` file which makes use of the MettleCI-enhanced Gremlin graph query [DSL](https://en.wikipedia.org/wiki/Domain-specific_language).
-| --------- | ----------- |
+
+This page lists the example DataStage compliance rules suplied with MettleCI for IBM Cloud Pak for Data.
+
 | Rule name | Description |
-| --------- | ----------- |
+|-----------|-------------|
 | [Adjacent Transformers](Adjacent Transformers.md) | Identifies flow designs with adjacent Transformer stages. |
 | [Aggregator Stage Not Preceded by Check Sort Stage](Aggregator Stage Not Preceded by Check Sort Stage.md) | Aggregator Stage will only return the correct result if the keys are pre-sorted |
 | [Audit Annotation](Audit Annotation.md) | Identifies where sensitive information may potentially be present in DataStage Job and Sequence Annotations. |
@@ -53,6 +53,7 @@ Each Compliance Rule is supplied as a `.groovy` file which makes use of the Mett
 | [Transformer With Unreferenced Stage Variable](Transformer With Unreferenced Stage Variable.md) | Identifies Transformer Stage with an unreferenced Stage Variable (including Loop Variables). |
 | [Unencrypted DB Passwords](Unencrypted DB Passwords.md) | Ensures that all Connectors must use encrypted Passwords |
 | [Unique Sort](Unique Sort.md) | Identifies unique sorts. |
-| --------- | ----------- |
-Page generated on Thu 14 Dec 2023 21:36:53 AEDT
+
+Page generated on Thu 14 Dec 2023 21:40:19 AEDT
 &copy; 2023 Data Migrators Pty Ltd
+[www.datamigrators.com](http://www.datamigrators.com)
